@@ -21,8 +21,8 @@ function moveDodgerLeft() {
 
 function moveDodgerRight() {
   debugger
-  var rightNumbers = dodger.style.left.replace('px', '')
-  var right = parseInt(rightNumbers, 10)
+  var leftNumbers = dodger.style.left.replace('px', '')
+  var left = parseInt(leftNumbers, 10)
 
   if (left < 360) {
     dodger.style.left = `${left + 1}px`
